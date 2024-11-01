@@ -1,0 +1,32 @@
+.image-container {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    overflow: hidden;
+  }
+  
+  a {
+    max-width: 1000px;
+    max-height: 400px;
+    overflow: hidden;
+  }
+  
+  img {
+    width: 600px;
+    position: relative;
+    height: auto;
+    background-repeat: no-repeat;
+  }
+  
+  body {
+    overflow-x: hidden;
+  }
+  
+  .button-container {
+    padding: 20px;
+  }
+  
+  button {
+    width: 200px;
+    height: 100px;
+  }
